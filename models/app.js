@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Group = require('./models/Group');
 
-const mongoDB = 'mongodb://localhost:23513/GroupSchema';
+const mongoDB = 'mongodb://localhost:27017/GroupSchema';
 
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 
